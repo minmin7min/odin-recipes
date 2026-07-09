@@ -1,0 +1,43 @@
+ul,ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.title {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    width: 1000px;
+    padding: 8px;
+    margin: 20px auto;
+}
+h1 {
+    border-bottom: 5px double gray;
+}
+
+.description,.ingredients,.steps {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    width: 1000px;
+    padding: 8px 16px;
+    margin: 20px auto;
+}
+
+.description {
+    background-color: rgb(255, 248, 176);
+}
+
+.ingredients {
+    background-color: rgb(235, 252, 220);
+}
+
+.steps {
+    background-color: rgb(196, 249, 241);
+}
+
+.link {
+    display: block;
+    width: 1000px;
+    margin: 20px auto 
+}

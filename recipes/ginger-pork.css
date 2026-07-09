@@ -1,0 +1,41 @@
+ul,ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    padding: 8px;
+    margin: 20px auto;
+}
+h1 {
+    border-bottom: 5px dashed gray;
+}
+
+.description,.ingredients,.steps {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    padding: 8px 16px;
+    margin: 20px auto;
+}
+
+.description {
+    background-color: lightcyan;
+}
+
+.ingredients {
+    background-color: lightgoldenrodyellow;
+}
+
+.steps {
+    background-color: lightpink;
+}
+
+.link {
+    display: block;
+    width: 1000px;
+    margin: 20px auto 
+}
